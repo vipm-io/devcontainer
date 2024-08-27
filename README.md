@@ -2,6 +2,8 @@
 
 This guide will help you set up a dev container for working on your github-hosted open source LabVIEW projects.
 
+![screenshot](docs/images/screenshot.png)
+
 ## Requirements
 
 - **Non-commercial use only** (i.e. working on open source or home/hobby projects)
