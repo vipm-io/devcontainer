@@ -1,6 +1,6 @@
 # Dev Container
 
-This guide will help you set up a dev container for working on your github-hosted open source LabVIEW projects.
+This guide will help you set up a [Dev Container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) or [GitHub Codespace](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces) for working on your github-hosted, open source LabVIEW projects.
 
 ![screenshot](docs/images/screenshot.png)
 
@@ -26,6 +26,7 @@ You have two primary choices for running the devcontainer:
 - Requirements:
     - Web browser
     - An account with GitHub Codespace minutes -- THIS COSTS MONEY and will most likely result in fees/charges to your github account.
+    - VSCode with [GitHub Codespaces extension](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces) installed (if connecting from VSCode app running locally, rather than in the browser)
 
 - Steps:
     - Open to your github project's homepage in the browser, and then press the `.` (period) key to open VSCode in the browser
@@ -36,7 +37,10 @@ You have two primary choices for running the devcontainer:
 - Requirements:
     - Arch: Intel processor (Apple Silicon won't work)
     - OS: Linux or Windows + [WSL](https://docs.docker.com/desktop/wsl/)
-    - SW: [Docker](https://www.docker.com/) (or containerd might work)
+    - SW:
+        - [Docker](https://www.docker.com/) (or containerd might work)
+        - [VSCode](https://code.visualstudio.com/)
+        - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension for VSCode
 
 - Steps:
     - Open the project in VSCode on your computer
