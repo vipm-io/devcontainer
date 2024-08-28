@@ -29,7 +29,7 @@ You have two primary choices for running the devcontainer:
 
 - Steps:
     - Open to your github project's homepage in the browser, and then press the `.` (period) key to open VSCode in the browser
-    - click on the `><GitHub` icon in the lower left and choose `Continue Working in New Codespace` and then choose the size of the codespace machine.
+    - click on the !["><" remote connection](docs/images/remote_connection.png) icon in the lower left and choose `Continue Working in New Codespace` and then choose the size of the codespace machine.
 
 #### Option #2 Local Devcontainer (running on your own computer) on Docker
 
@@ -40,7 +40,7 @@ You have two primary choices for running the devcontainer:
 
 - Steps:
     - Open the project in VSCode on your computer
-    - Click on the `><GitHub` icon in the lower left and choose `Open in Dev Container`
+    - Click on the !["><" remote connection](docs/images/remote_connection.png) icon in the lower left and choose `Open in Dev Container`
 
 #### More Remote Options
 
